@@ -1,0 +1,232 @@
+body {
+    background-image: url("images/purplewaves.jpg");
+    
+}
+
+
+.container{
+   
+    padding:  2em 0 2em 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+.card{
+    
+    border-radius: 5px;
+    box-shadow: 10px 10px 5px #333;
+    background-color: rgb(103, 54, 124);
+    text-align: center;
+    padding: 4em;
+    margin: 2em;
+    max-width: fit-content;
+    
+}
+
+.profile_card {
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px rgb(211, 34, 102);
+    background-color: rgb(103, 54, 124);
+    text-align: center;
+    margin: 2em;
+    padding: 1em;
+}
+
+.card .form_field{
+    padding: .5em;
+    margin: .5em;
+    /* color: yellow; */
+}
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    color: whitesmoke;
+    /* border-style: solid;
+    border-width: 1px;
+    border-color: white; */
+}
+.form_input {
+    color: black;
+}
+
+#id_email {
+    color: black;
+}
+
+#id_phoneNumber {
+    color: black;
+}
+
+#id_address {
+    color: black;
+}
+
+.form_title {
+    font-size: 1.5em;
+}
+
+input[type="text"] {
+    color: black;
+}
+
+input[type="email"] {
+    color: black;
+}
+
+select option {
+    color: black;
+}
+
+.get_started_card {
+    width: 100%;
+    height: 20em;
+    position: relative;
+}
+
+.get_started {
+   
+    position: absolute;
+    top: 30%;
+    right: 35%;
+    height: 70px;
+    width: 220px;
+    background-color: rgb(211, 34, 102);
+    font-size: 2em;
+    border-radius: 35px;
+    cursor: pointer;   
+    transition: box-shadow .5s ease-in-out;
+}
+
+.get_started:hover {
+    box-shadow: 0 0 60px #ff00de;
+}
+
+.get_started a {
+    text-decoration: none;
+   
+    text-align: center;
+    
+    pointer-events: auto;
+    
+}
+
+.header {
+    height: 1.2em;
+    /* width: 100%; */
+    font-size: 3em;
+    font-weight: 700;
+    padding-left: .3em;
+    text-shadow: 0 0 10px #fff, 0 0 5px #fff, 0 0 10px  #ff00de, 0 0 30px #ff00de, 0 0 40px #ff00de;
+}
+
+.Welcome {
+    font-size: larger;
+    margin: 0, 40px;
+    padding-left: 2em;
+}
+.navb {
+    background-color: rgb(103, 54, 124);
+    border-radius: 6px;
+}
+
+.navb a {
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+.med_link {
+    font-size: large;
+    width: 100px;
+    height: 40px;
+    background-color: #ff00de;
+    color: whitesmoke;
+    border-radius: 20px;
+    transition: box-shadow .5s ease-in-out;
+}
+
+.med_link:hover {
+    box-shadow: 0 0 20px #ff00de; 
+}
+
+ 
+.link {
+    font-size: large;
+    width: auto;
+    height: 50px;
+    background-color: #ff00de;
+    color: whitesmoke;
+    border-radius: 25px;
+    transition: box-shadow .5s ease-in-out;
+    padding: 0 1em;
+    
+}
+
+.link:hover {
+    box-shadow: 0 0 20px #ff00de;
+}
+
+.link a {
+    text-decoration: none;
+    /* font-size: 1.2em; */
+}
+
+.submit {
+    font-size: large;
+    width: auto;
+    height: 50px;
+    background-color: #ff00de;
+    color: whitesmoke;
+    border-radius: 25px;
+    transition: box-shadow .5s ease-in-out;
+    padding: 0 1em;
+}
+
+.submit:hover {
+    box-shadow: 0 0 20px #ff00de;
+}
+
+input {
+    color: white;
+}
+
+
+.splash_div {
+    
+    height: auto;
+    padding: 0 40px;
+
+    
+}
+
+.splash_statement {
+  
+ 
+    
+}
+
+.profile_pic {
+    height: 10em;
+    border-radius: 5em;
+}
+
+
+
+/* not sure if we need these */
+
+/* .nav_menu {
+    overflow: hidden;
+    background-color: rgb(255, 0, 0);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: sticky;
+    top: 0;
+    opacity: 0.5;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    text-align: center;
+  }  */

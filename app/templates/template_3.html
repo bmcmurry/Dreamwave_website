@@ -1,0 +1,58 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>-- Restaurant Name --</title>
+    <link rel="stylesheet" href="{% static 'phillipstyles.css' %}" />
+  </head>
+  <body>
+    <div class="header">
+      <span class="head">{{business.name}}</span>
+    </div>
+    <div class="info">
+      <img src="{% static 'images/restaurant.jpg' %}" alt="restaurant" />
+      <p class="data">{{business.description}}</p>
+    </div>
+    <div class="info2">
+      <img src="{% static 'images/kitchen.jpg' %}" alt="kitchen" />
+      <p class="data">{{business.type}}</p>
+    </div>
+    <div class="info">
+      <img src="{% static 'images/waitress.jpg' %}" alt="waitress" />
+      {% for contact in business_contact %}
+      <div>
+        <p class="data">
+          Address: {{contact.address}} <br />
+          Phone: {{contact.phoneNumber}} <br />
+          Email: {{contact.email}}
+        </p>
+      </div>
+      <br />
+      {% endfor %}
+    </div>
+    <div class="links">
+      <a class="button" href="#" target="blank">Our Menu</a>
+      <a class="button" href="#" target="blank">Locations</a>
+    </div>
+    <div class="band">
+      <div class="members">
+        <span class="member">
+          <img src="{% static 'images/wine.jpg' %}" alt="wine" />
+          <p>Fine wine</p>
+        </span>
+        <span class="member">
+          <img src="{% static 'images/steak.jpg' %}" alt="steak" />
+          <p>Choice cuts</p>
+        </span>
+        <span class="member">
+          <img src="{% static 'images/chicken.jpg' %}" alt="chicken" />
+          <p>Good grills</p>
+        </span>
+        <span class="member">
+          <img src="{% static 'images/cake.jpg' %}" alt="cake" />
+          <p>Sweet treats</p>
+        </span>
+      </div>
+    </div>
+  </body>
+</html>
